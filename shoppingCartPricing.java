@@ -14,7 +14,7 @@ public class shoppingCartPricing{
 		num=sc.nextInt();
 		double total;
 		total = price*num;
-		System.out.println("Your total bill amount for "+num+" "+item+" is Rs."+total);
+		System.out.println("Your total bill amount for "+num+" "+item+"/s is Rs."+total);
 		sc.close();
 		
 	}
